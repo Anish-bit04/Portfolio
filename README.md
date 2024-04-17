@@ -20,20 +20,15 @@ This is my personal portfolio website built using Next.js.
 
 ## Getting Started
 
-1. Clone the repository:
 
-   ````Copy code
-   git clone https://github.com/your-username/your-portfolio.git```
 
-   ````
-
-2. Install dependencies:
+1. Install dependencies:
 
    ````cd your-portfolio
    npm install
    ````
 
-3. Start the development server:
+2. Start the development server:
 
    ```Copy code
    npm run dev
@@ -41,13 +36,5 @@ This is my personal portfolio website built using Next.js.
 
 Open http://localhost:3000 in your browser to view the website locally.
 
-## Deployment
 
-The website can be deployed using various platforms like Vercel, Netlify, or AWS Amplify. Ensure to set up environment variables for any necessary configurations.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License.

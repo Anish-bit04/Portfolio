@@ -1,26 +1,13 @@
 import React from "react";
 import { projectList } from "../data/data";
 import AnimatedDiv from "../components/AnimatedDiv";
-import ProjectGrid from "../components/ProjectGrid";
+import ProjectGrid,{Project}from "../components/ProjectGrid";
 import { StaticImageData } from "next/image";
 
 interface Props {
   projectList: Project[];
 }
 
-export interface Project {
-  id: number;
-  tag?: string;
-  title: string;
-  category: string;
-  image: StaticImageData;
-  description: string;
-  tech: (string | StaticImageData)[];
-  url?: string;
-  github: string;
-  detailedDescription: string;
-  features: string[];
-}
 
 const AllProjectsPage = ({ projectList }: Props) => {
   return (

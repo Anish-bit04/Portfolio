@@ -2,7 +2,7 @@ import chat from "@/public/chat.png";
 import meetingMate from "@/public/meeting-mate.png";
 import food from "@/public/food.png";
 import { StaticImageData } from "next/image";
-
+import portfolio from "@/public/portfolio.png"
 
 export const projectList  = [
   {
@@ -83,7 +83,7 @@ export const projectList  = [
     tag: "top",
     title: "Personal Portfolio",
     category: "Frontend",
-    image: undefined,
+    image: portfolio,
     description:
       "Sleek personal portfolio website made with NextJs, ShadcnUI and Framer Motion.",
     tech: [
@@ -91,7 +91,7 @@ export const projectList  = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     ],
     url: undefined,
-    github: undefined,
+    github: "https://github.com/Anish-bit04/",
     features: [
       "Sleek and modern design",
       "Built with Next.js for server-side rendering",

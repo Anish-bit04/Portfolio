@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import Hero from "./Hero";
 import InfiniteMarquee from "./skills/InfiniteMarquee";
 import Skills from "./skills/SkillGrid";

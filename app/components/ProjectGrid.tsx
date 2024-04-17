@@ -28,8 +28,8 @@ const ProjectGrid = ({ projectList }: Props) => {
     <Tabs defaultValue="all">
       <TabsList className="dark:bg-zinc-900">
         <TabsTrigger value="all">All</TabsTrigger>
-        <TabsTrigger value="frontend">Frontend</TabsTrigger>
-        <TabsTrigger value="Backend">Backend</TabsTrigger>
+        <TabsTrigger value="Full Stack">Full Stack</TabsTrigger>
+        <TabsTrigger value="Frontend">Frontend</TabsTrigger>
       </TabsList>
 
       <TabsContent value="all">
@@ -48,10 +48,10 @@ const ProjectGrid = ({ projectList }: Props) => {
           ))}
         </AnimatedDiv>
       </TabsContent>
-      <TabsContent value="frontend">
+      <TabsContent value="Full Stack">
         <AnimatedDiv ClassName="grid md:grid-cols-2 mt-3 lg:grid-cols-3 xl:grid-cols-4 md:p-0 gap-4 sm:gap-5">
           {projectList
-            .filter((p) => p.category === "frontend")
+            .filter((p) => p.category === "Full Stack")
             .map((p) => (
               <ProjectCard
                 key={p.title}
@@ -66,10 +66,10 @@ const ProjectGrid = ({ projectList }: Props) => {
             ))}
         </AnimatedDiv>
       </TabsContent>
-      <TabsContent value="Backend">
+      <TabsContent value="Frontend">
         <AnimatedDiv ClassName="grid md:grid-cols-2 mt-3 lg:grid-cols-3 xl:grid-cols-4 md:p-0 gap-4 sm:gap-5">
           {projectList
-            .filter((p) => p.category === "Backend")
+            .filter((p) => p.category === "Frontend")
             .map((p) => (
               <ProjectCard
                 key={p.title}

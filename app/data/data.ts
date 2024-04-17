@@ -1,6 +1,8 @@
 import chat from "@/public/chat.png";
 import meetingMate from "@/public/meeting-mate.png";
 import food from "@/public/food.png";
+import { StaticImageData } from "next/image";
+
 
 export const projectList  = [
   {
@@ -33,7 +35,7 @@ export const projectList  = [
     id: 2,
     tag: "top",
     title: "Meeting Mate",
-    category: "Full Stack ",
+    category: "Full Stack",
     image: meetingMate,
     description:
       " Full Stack scheduling meeting app using Next.js, Tailwind CSS, and Firebase.",
@@ -80,7 +82,7 @@ export const projectList  = [
     id: 4,
     tag: "top",
     title: "Personal Portfolio",
-    category: "frontend",
+    category: "Frontend",
     image: undefined,
     description:
       "Sleek personal portfolio website made with NextJs, ShadcnUI and Framer Motion.",

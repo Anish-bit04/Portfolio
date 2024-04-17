@@ -35,7 +35,7 @@ const Quote = () => {
             />
           </svg>
           <p className="text-[2rem] text-zinc-600 dark:text-zinc-400 font-protest relative z-20   mt-[5rem] mb-3  ">
-          Hard work is worthless for those that don't believe in themselves
+          Hard work is worthless for those that don&apos;t believe in themselves.
           </p>
           <p className="italic opacity-50 text-end">- Naruto Uzumaki</p>
         </div>

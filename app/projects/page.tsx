@@ -2,8 +2,11 @@ import React from "react";
 import { projectList } from "../data/data";
 import AnimatedDiv from "../components/AnimatedDiv";
 import ProjectGrid from "../components/ProjectGrid";
+import { Project } from "../components/ProjectGrid"; // Import the Project type from the ProjectGrid component
 
 const AllProjectsPage = () => {
+  const projectList: Project[] = []; // Replace this empty array with your actual project list
+
   return (
     <AnimatedDiv ClassName="px-[1.5rem] lg:px-[9rem] my-[3rem] relative">
       <h2 className="text-center font-bold text-sm text-[#FF8911] uppercase tracking-wider mb-6">

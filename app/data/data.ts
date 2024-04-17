@@ -1,8 +1,22 @@
 import chat from "@/public/chat.png";
 import meetingMate from "@/public/meeting-mate.png";
 import food from "@/public/food.png";
+import { StaticImageData } from "next/image";
 
-export const projectList = [
+interface Project {
+  id: number;
+  tag: string;
+  title: string;
+  category: string;
+  image?: StaticImageData; // Use optional chaining for optional properties
+  description: string;
+  tech: string[];
+  url?: string; // Optional URL
+  github?: string; // Optional GitHub link
+  detailedDescription: string;
+  features: string[];
+}
+export const projectList :Project[] = [
   {
     id: 1,
     tag: "top",

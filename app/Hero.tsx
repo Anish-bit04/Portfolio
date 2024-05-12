@@ -32,8 +32,7 @@ const Hero = () => {
 
       <p className="text-[1rem] text-gray-600 text-center mt-4 ">
         I am a Full Stack Developer based in India, I{" "}
-        <span className="opacity-70">🔥</span> building Web Apps. (sounds
-        fascinating! right?)
+        <span className="opacity-70">🔥</span> building Web Apps. 
       </p>
     </>
   );

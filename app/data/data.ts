@@ -3,6 +3,7 @@ import meetingMate from "@/public/meeting-mate.png";
 import food from "@/public/food.png";
 import { StaticImageData } from "next/image";
 import portfolio from "@/public/portfolio.png"
+import refokus from "@public/refokus.png"
 
 export const projectList  = [
   {
@@ -90,7 +91,7 @@ export const projectList  = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     ],
-    url: undefined,
+    url: "https://anish-portfolio-iota.vercel.app/",
     github: "https://github.com/Anish-bit04/",
     features: [
       "Sleek and modern design",
@@ -100,8 +101,31 @@ export const projectList  = [
     ],
     detailedDescription:
       "This project is a personal portfolio website showcasing the developer's skills and projects. It features a sleek and modern design implemented with Next.js, a React framework for server-side rendering.",
+  },
+  {
+    id: 5,
+    tag: "top",
+    title: "Refokus",
+    category: "Frontend",
+    image: refokus,
+    description:
+      "Modern website made with ReactJs, TaliwindCSS and Framer Motion",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
+    ],
+    url: "https://refokus-zeta.vercel.app/",
+    github: "https://github.com/Anish-bit04/",
+    features: [
+      "Sleek and modern design",
+      "Built with React.js",
+      "Utilizes Tailwind CSS for responsive styling",
+      "Animated transitions powered by Framer Motion",
+    ],
+    detailedDescription:
+      "This project is a clone website, which help me get better understanding of Styling and Animation"
   }
-
 ];
 
 //////////////////////////////

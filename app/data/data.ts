@@ -3,7 +3,7 @@ import meetingMate from "@/public/meeting-mate.png";
 import food from "@/public/food.png";
 import { StaticImageData } from "next/image";
 import portfolio from "@/public/portfolio.png"
-import refokus from "@public/refokus.png"
+import refokus from "@/public/refokus.png"
 
 export const projectList  = [
   {

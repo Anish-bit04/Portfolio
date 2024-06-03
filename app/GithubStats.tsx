@@ -13,7 +13,7 @@ const GithubStats = () => {
         colorScheme={`${theme === "light" ? "light" : "dark"}`}
         year={2024}
         hideColorLegend={true}
-        username="Anish"
+        username="Anish-bit04"
       />
     </div>
   );

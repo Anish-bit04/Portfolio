@@ -4,6 +4,7 @@ import food from "@/public/food.png";
 import { StaticImageData } from "next/image";
 import portfolio from "@/public/portfolio.png"
 import refokus from "@/public/refokus.png"
+import ochi from "@/public/ochi.png"
 
 export const projectList  = [
   {
@@ -56,31 +57,9 @@ export const projectList  = [
       "📱 Responsive",
     ],
   },
+  
   {
     id: 3,
-    tag: "top",
-    title: "Food Hunt",
-    category: "Frontend",
-    image: food,
-    description:
-      "user-centric booking application, emphasizing front-end design and user experience",
-    tech: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-
-    ],
-    url: "https://restaurant-booking-app-omega.vercel.app/",
-    github: "https://github.com/Anish-bit04/Restaurant_Booking_App",
-    features: [
-      "Responsive",
-      "User Centric ",
-      "Visually Appealing",
-    ],
-    detailedDescription:
-    "user-centric booking application, emphasizing front-end design and user experience",
-  },
-  {
-    id: 4,
     tag: "top",
     title: "Personal Portfolio",
     category: "Frontend",
@@ -103,7 +82,7 @@ export const projectList  = [
       "This project is a personal portfolio website showcasing the developer's skills and projects. It features a sleek and modern design implemented with Next.js, a React framework for server-side rendering.",
   },
   {
-    id: 5,
+    id: 4,
     tag: "top",
     title: "Refokus",
     category: "Frontend",
@@ -116,7 +95,7 @@ export const projectList  = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
     ],
     url: "https://refokus-zeta.vercel.app/",
-    github: "https://github.com/Anish-bit04/",
+    github: "https://github.com/Anish-bit04/Refokus",
     features: [
       "Sleek and modern design",
       "Built with React.js",
@@ -125,6 +104,54 @@ export const projectList  = [
     ],
     detailedDescription:
       "This project is a clone website, which help me get better understanding of Styling and Animation"
+  },
+  {
+    id: 5,
+    tag: "top",
+    title: "Food Hunt",
+    category: "Frontend",
+    image: food,
+    description:
+      "user-centric booking application, emphasizing front-end design and user experience",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+
+    ],
+    url: "https://restaurant-booking-app-omega.vercel.app/",
+    github: "https://github.com/Anish-bit04/Restaurant_Booking_App",
+    features: [
+      "Responsive",
+      "User Centric ",
+      "Visually Appealing",
+    ],
+    detailedDescription:
+    "user-centric booking application, emphasizing front-end design and user experience",
+  },
+  {
+    id: 6,
+    tag: "top",
+    title: "Ochi Design",
+    category: "Frontend",
+    image: ochi,
+    description:
+      "Modern Animated website made with ReactJs, TaliwindCSS and Framer Motion",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"
+    ],
+    url: "https://ochi-design-one.vercel.app/",
+    github: "https://github.com/Anish-bit04/Ochi-design",
+    features: [
+      "Sleek and modern design",
+      "Built with React.js",
+      "Utilizes Tailwind CSS for responsive styling",
+      "Animated transitions powered by Framer Motion",
+      "Use Locomotive for smooth scroll and scroll animation"
+    ],
+    detailedDescription:
+      "This project is a clone website of ochi.design, which help me get better understanding of Styling and Animation"
   }
 ];
 

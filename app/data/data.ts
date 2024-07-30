@@ -5,6 +5,7 @@ import { StaticImageData } from "next/image";
 import portfolio from "@/public/portfolio.png"
 import refokus from "@/public/refokus.png"
 import ochi from "@/public/ochi.png"
+import jobZee from "@/public/jobZee.png"
 
 export const projectList  = [
   {
@@ -152,6 +153,30 @@ export const projectList  = [
     ],
     detailedDescription:
       "This project is a clone website of ochi.design, which help me get better understanding of Styling and Animation"
+  },{
+    id: 7,
+    tag: "top",
+    title: "JobZee",
+    category: "Full Stack",
+    image: jobZee,
+    description:
+      "Full Stack Job Seeking Web App build using MERN Stack",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+     
+    ],
+    url: "https://jobzee-rqmn.onrender.com/",
+    github: "https://github.com/Anish-bit04/Job-Seeking-Web-App",
+    features: [
+      "Built with React.js",
+      "Dual portal for JobSeeker and Employer",
+      "Authentication verification for both employer and job seeker",
+      "customizable job post and application option available"
+    ],
+    detailedDescription:
+      "MERN Stack Job Seeking Web Application for Job Seeker and Employer to add new job."
   }
 ];
 

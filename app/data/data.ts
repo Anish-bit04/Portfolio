@@ -6,6 +6,7 @@ import portfolio from "@/public/portfolio.png"
 import refokus from "@/public/refokus.png"
 import ochi from "@/public/ochi.png"
 import jobZee from "@/public/jobZee.png"
+import cashFlow from "@/public/cashFlow.png"
 
 export const projectList  = [
   {
@@ -177,6 +178,30 @@ export const projectList  = [
     ],
     detailedDescription:
       "MERN Stack Job Seeking Web Application for Job Seeker and Employer to add new job."
+  },
+  {
+    id: 8,
+    tag: "top",
+    title: "CashFlow",
+    category: "Full Stack",
+    image: cashFlow,
+    description:
+      "Developed a full-stack web application for secure user-to-user money transfers with authentication and real-time transaction processing.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+     
+    ],
+    url: "https://cashflow-u2fl.onrender.com",
+    github: "https://github.com/Anish-bit04/CashFlow",
+    features: [
+      "Designed and executed real-time money transfer functionality using MongoDB transactions",
+      "Implemented secure user authentication and authorization",
+      
+    ],
+    detailedDescription:
+    "Developed a full-stack web application for secure user-to-user money transfers with authentication and real-time transaction processing.",
   }
 ];
 

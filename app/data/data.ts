@@ -7,6 +7,7 @@ import refokus from "@/public/refokus.png"
 import ochi from "@/public/ochi.png"
 import jobZee from "@/public/jobZee.png"
 import cashFlow from "@/public/cashFlow.png"
+import reactWise from "@/public/reactwise.png"
 
 export const projectList  = [
   {
@@ -38,27 +39,27 @@ export const projectList  = [
   {
     id: 2,
     tag: "top",
-    title: "Meeting Mate",
-    category: "Full Stack",
-    image: meetingMate,
+    title: "ReactWise Redesign",
+    category: "Frontend",
+    image: reactWise,
     description:
-      " Full Stack scheduling meeting app using Next.js, Tailwind CSS, and Firebase.",
+      "Redesigned the frontend for YC(24) Startup - reactWise",
     tech: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
     ],
-    url: "https://meeting-mate-bay.vercel.app/",
-    github: "https://github.com/Anish-bit04/Meeting-Mate",
-    detailedDescription:
-      " Full Stack scheduling meeting app  to manage time properly.",
+    url: "https://react-wise.vercel.app/",
+    github: "https://github.com/Anish-bit04/ReactWise-Redesign",
     features: [
-      "⌚  Real-time",
-      "🔑 Authentication",
-      "🛃 Customizable",
-      "📱 Responsive",
+      "Sleek and modern design",
+      "Built with React.js",
+      "Utilizes Tailwind CSS for responsive styling",
+    
     ],
+    detailedDescription:
+      "Redesigned the frontend for YC(24) Startup - reactWise"
   },
+
   
   {
     id: 3,
@@ -202,7 +203,30 @@ export const projectList  = [
     ],
     detailedDescription:
     "Developed a full-stack web application for secure user-to-user money transfers with authentication and real-time transaction processing.",
-  }
+  } , {
+    id: 9,
+    tag: "top",
+    title: "Meeting Mate",
+    category: "Full Stack",
+    image: meetingMate,
+    description:
+      " Full Stack scheduling meeting app using Next.js, Tailwind CSS, and Firebase.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+    ],
+    url: "https://meeting-mate-bay.vercel.app/",
+    github: "https://github.com/Anish-bit04/Meeting-Mate",
+    detailedDescription:
+      " Full Stack scheduling meeting app  to manage time properly.",
+    features: [
+      "⌚  Real-time",
+      "🔑 Authentication",
+      "🛃 Customizable",
+      "📱 Responsive",
+    ],
+  },
 ];
 
 //////////////////////////////

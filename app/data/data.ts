@@ -7,7 +7,8 @@ import refokus from "@/public/refokus.png"
 import ochi from "@/public/ochi.png"
 import jobZee from "@/public/jobZee.png"
 import cashFlow from "@/public/cashFlow.png"
-import reactWise from "@/public/reactwise.png"
+import reactWise from "@/public/reactwise.png" 
+import mystore from "@/public/mystore.png" 
 
 export const projectList  = [
   {
@@ -74,7 +75,7 @@ export const projectList  = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     ],
     url: "https://anish-portfolio-iota.vercel.app/",
-    github: "https://github.com/Anish-bit04/",
+    github: "https://github.com/Anish-bit04/Portfolio",
     features: [
       "Sleek and modern design",
       "Built with Next.js for server-side rendering",
@@ -86,6 +87,33 @@ export const projectList  = [
   },
   {
     id: 4,
+    tag: "top",
+    title: "MyStore",
+    category: "Full Stack",
+    image: mystore,
+    description:
+      "Fully-functional store using PostgreSQL, Express, React, and Node.js",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    ],
+    url: "https://mystore-qwzy.onrender.com/",
+    github: "https://github.com/Anish-bit04/MyStore",
+    features: [
+
+     `🌟 Tech stack: PERN + TailwindCSS + Daisy UI`,
+      "🚀 Rate Limiting & Bot Detection",
+      "👌 Global state management with Zustand",
+      "🐞 Error handling both on the server and client",
+     
+      
+    ],
+    detailedDescription:
+    "A fully-functional store using PostgreSQL, Express, React, and Node.js. Highlights include TailwindCSS and Daisy UI integration, rate limiting, bot detection, global state management with Zustand, error handling"
+  },
+  {
+    id: 5,
     tag: "top",
     title: "Refokus",
     category: "Frontend",
@@ -109,7 +137,7 @@ export const projectList  = [
       "This project is a clone website, which help me get better understanding of Styling and Animation"
   },
   {
-    id: 5,
+    id: 6,
     tag: "top",
     title: "Food Hunt",
     category: "Frontend",
@@ -132,7 +160,7 @@ export const projectList  = [
     "user-centric booking application, emphasizing front-end design and user experience",
   },
   {
-    id: 6,
+    id: 7,
     tag: "top",
     title: "Ochi Design",
     category: "Frontend",
@@ -156,7 +184,7 @@ export const projectList  = [
     detailedDescription:
       "This project is a clone website of ochi.design, which help me get better understanding of Styling and Animation"
   },{
-    id: 7,
+    id: 8,
     tag: "top",
     title: "JobZee",
     category: "Full Stack",
@@ -181,7 +209,7 @@ export const projectList  = [
       "MERN Stack Job Seeking Web Application for Job Seeker and Employer to add new job."
   },
   {
-    id: 8,
+    id: 9,
     tag: "top",
     title: "CashFlow",
     category: "Full Stack",
@@ -204,7 +232,7 @@ export const projectList  = [
     detailedDescription:
     "Developed a full-stack web application for secure user-to-user money transfers with authentication and real-time transaction processing.",
   } , {
-    id: 9,
+    id: 10,
     tag: "top",
     title: "Meeting Mate",
     category: "Full Stack",

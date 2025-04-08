@@ -426,12 +426,12 @@ export const socials = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/anish-choudhary-127020234/",
+    url: "https://www.linkedin.com/in/anish004/",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg",
   },
   {
     name: "Twitter",
-    url: " https://x.com/Phenoix04?s=08",
+    url: "https://x.com/Phenoix04",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg",
   },
 ];

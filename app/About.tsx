@@ -35,9 +35,9 @@ const About = () => {
       </div>
 
       <p className="opacity-85 dark:text-zinc-400">
-        As a Third year ECE undergrad, I excel in crafting projects from the ground up.
+        As a Final Year undergrad, I excel in crafting projects from the ground up.
        {" "}
-      My expertise lies in MERN stack development, and I&apos;driven by a passion for crafting revolutionary web applications utilizing the latest tech stacks, particularly in MERN.
+      My expertise lies in Full stack development, and I&apos;driven by a passion for crafting revolutionary web applications utilizing the latest tech stacks.
         
      
       </p>
